@@ -1,0 +1,73 @@
+Bottom-Up Approach in Data Warehouse
+Important exam topic
+1. Definition
+The Bottom-Up Approach is a method of designing a Data Warehouse in which we first create smaller Data Marts for individual departments. Later, these Data Marts are integrated to form a centralized Enterprise Data Warehouse (EDW).
+
+In simple words:
+
+First create small department-wise Data Marts, then combine them into one big Data Warehouse.
+2. Diagram / Flowchart
+Different Data Sources
+
+Sales · HR · Finance
+
+Sales Data Mart
+
+
+HR Data Mart
+
+
+Finance Data Mart
+
+
+
+Integration of Data Marts
+
+Combining department-wise data
+
+Central Data Warehouse (EDW)
+
+Complete organization data
+
+
+3. Working of Bottom-Up Approach
+It works in the following steps:
+1. Identify Departments: Identify different departments such as Sales, HR and Finance.
+2. Create Data Marts: Create separate Data Marts for each department.
+3. Collect Data: Collect the required data from each department.
+4. Integrate Data: Combine all the Data Marts using suitable integration methods.
+5. Create Central Data Warehouse: Integrate the department-wise data to form one centralized Data Warehouse.
+6. Analysis: Use the warehouse for organization-wide reporting and decision-making.
+4. Example – College Management System
+Imagine a college with different departments.
+
+Step 1: First, separate Data Marts are created:
+- Examination Data Mart – Student marks and results.
+- Attendance Data Mart – Student attendance.
+- Finance Data Mart – Student fee details.
+Step 2: Each department manages its own data.
+
+Step 3: Later, all three Data Marts are integrated into one central Data Warehouse.
+
+Step 4: College management can access complete information from the central warehouse.
+
+This is called the Bottom-Up Approach because smaller Data Marts are created first and combined into a bigger warehouse.
+5. Advantages
+1. Faster implementation.
+2. Lower initial investment.
+3. Easy to develop department by department.
+4. Flexible and expandable.
+5. Provides quick results for individual departments.
+6. Disadvantages
+1. Data integration can be difficult.
+2. Data duplication may occur.
+3. Maintaining consistency is challenging.
+4. Different departments may use different data formats.
+5. Integration requires proper planning.
+7. Difference between Top-Down and Bottom-Up
+Top-Down	Bottom-Up
+Central warehouse is created first.	Data Marts are created first.
+Data Marts are created later.	Data Marts are integrated later.
+Big to small.	Small to big.
+Higher initial investment.	Lower initial investment.
+Centralized planning.	Department-wise development initially.

@@ -1,0 +1,131 @@
+KDD – Knowledge Discovery in Databases
+Important exam topic – Module 2
+1. What is KDD?
+KDD stands for Knowledge Discovery in Databases.
+
+Definition: KDD is the process of discovering useful, meaningful and hidden patterns or knowledge from large amounts of data.
+
+In simple words, KDD converts raw data into useful information that helps in decision-making.
+
+Example:
+
+An online shopping company has thousands of customer records. By using KDD, it discovers that customers who purchase laptops often purchase laptop bags.
+
+The company can use this knowledge to recommend laptop bags to customers.
+2. KDD Process – Five Main Steps
+1
+Data Selection
+
+Select required data.
+
+2
+Data Cleaning
+
+Remove errors and missing values.
+
+3
+Data Transformation
+
+Convert data into a suitable format.
+
+4
+Data Mining
+
+Discover hidden patterns.
+
+5
+Evaluation and Interpretation
+
+Check and understand useful patterns.
+
+
+Step 1: Data Selection
+Meaning: Selecting the required data from a large database.
+
+Example: A college wants to predict student performance. It selects:
+- Student attendance
+- Internal marks
+- Assignment marks
+- Previous examination results
+Step 2: Data Cleaning
+Meaning: Removing errors, duplicate records, missing values and inconsistent data.
+
+Example: If a student's attendance is missing or entered incorrectly, it is checked and corrected or handled appropriately.
+Step 3: Data Transformation
+Meaning: Converting cleaned data into a suitable format for analysis.
+
+Example: Converting attendance into percentages and arranging student marks in a standard format.
+Step 4: Data Mining
+Meaning: Applying algorithms and techniques to discover hidden patterns and relationships in data.
+
+Example: Discovering that students with low attendance are more likely to score low marks.
+Step 5: Evaluation and Interpretation
+Meaning: Evaluating the discovered patterns to check whether they are useful and meaningful.
+
+Example: The college checks whether low attendance is actually related to poor academic performance.
+
+3. Detailed KDD Process – Seven Steps
+Your Module 2 PPT also explains the detailed seven-step process.
+1. Data Cleaning: Removes noise, errors and inconsistent data.
+2. Data Integration: Combines data from different sources into one dataset.
+3. Data Selection: Selects data relevant to the problem.
+4. Data Transformation: Converts data into a suitable format.
+5. Data Mining: Extracts useful patterns from data.
+6. Pattern Evaluation: Identifies meaningful and interesting patterns.
+7. Knowledge Presentation: Presents discovered knowledge through reports, graphs and visualizations.
+Seven-step flowchart
+1. Data Cleaning
+
+2. Data Integration
+
+3. Data Selection
+
+4. Data Transformation
+
+5. Data Mining
+
+6. Pattern Evaluation
+
+7. Knowledge Presentation
+
+
+Important: The five-step and seven-step versions describe the same overall KDD process at different levels of detail. In the seven-step version, data integration and knowledge presentation are shown separately, while evaluation and interpretation are explained in greater detail.
+
+4. Real-Life Example of KDD – Student Performance Prediction
+Imagine a college wants to identify students who may fail their examinations.
+KDD Step	College Example
+Data Selection	Select marks and attendance
+Data Cleaning	Remove incorrect records
+Data Transformation	Convert marks into percentages
+Data Mining	Find patterns related to failure
+Evaluation	Check whether the patterns are reliable
+
+Final knowledge: Students with low attendance and low internal marks may be at risk of failing.
+
+The college can provide additional coaching to those students.
+5. Difference Between KDD and Data Mining
+This is a very important exam question.
+KDD	Data Mining
+Full form: Knowledge Discovery in Databases	Full form: Data Mining
+Complete knowledge discovery process	One stage of KDD
+Includes selection, cleaning, transformation, mining and evaluation	Focuses on discovering patterns
+Produces useful knowledge	Produces patterns and relationships
+
+Remember this:
+
+KDD = Complete process
+
+Data Mining = One important step in KDD
+
+6. Advantages of KDD
+1. Helps discover hidden patterns.
+2. Supports better decision-making.
+3. Helps predict future trends.
+4. Improves business performance.
+5. Converts large amounts of data into useful knowledge.
+6. Helps identify relationships between different data items.
+7. Pattern → Information → Knowledge
+Example from machine maintenance:
+- Pattern: Machine temperature increases before a machine failure.
+- Information: High temperature is associated with machine problems.
+- Knowledge: High temperature can be used as an early warning to predict possible machine failure.

@@ -1,0 +1,146 @@
+Data Cube – OLAP Data Cube
+Important exam topic – Module 1
+1. What is a Data Cube?
+Definition: A Data Cube is a multidimensional data structure used in a Data Warehouse to organize and analyze data based on different dimensions and facts.
+
+It is mainly used in OLAP (Online Analytical Processing) to perform fast querying, summarization and analysis of data.
+
+In simple words:
+
+A Data Cube helps us view the same data from different angles, such as product, time and location.
+
+Important: A Data Cube is not necessarily a physical cube. It is a logical structure used for multidimensional data analysis. mod1111.pptx
+
+2. Example of a Data Cube
+Imagine a supermarket wants to analyze its sales.
+
+It has three dimensions:
+1. Product: Laptop, Mobile, TV, Tablet.
+2. Geography: USA, Asia, Australia, Europe.
+3. Time: Q1, Q2, Q3, Q4.
+
+
+
+
+
+
+
+
+pravin-hub-rgb.github.io
+
+
+The cube represents sales using these three dimensions.
+What does each dimension mean?
+Dimension	Meaning	Example
+Product	What was sold?	Mobile, Laptop, TV
+Geography	Where was it sold?	USA, Asia
+Time	When was it sold?	Q1, Q2
+
+3. What is a Cell in a Data Cube?
+A Data Cube contains small blocks called cells.
+
+Each cell represents one particular combination of dimensions and stores a measure (fact), such as sales amount, revenue or units sold.
+
+Example:
+Product	Geography	Time	Sales
+Mobile	Asia	Q2	₹50,000
+TV	USA	Q1	₹40,000
+Laptop	Europe	Q3	₹80,000
+
+Here:
+- Mobile = Product dimension.
+- Asia = Geography dimension.
+- Q2 = Time dimension.
+- ₹50,000 = Measure (fact).
+Therefore, one cell represents the sales of Mobile in Asia during Q2. mod1111.pptx
+
+4. Why is a Data Cube Used?
+A Data Cube helps answer questions such as:
+- Which product sells the most in Asia?
+- What were the mobile sales in Q3?
+- Which region has the highest tablet sales?
+- What is the total sales revenue in a particular year?
+Instead of checking thousands of individual records, users can analyze summarized data quickly.
+5. Classification of Data Cube
+According to your PPT, Data Cubes are classified into two categories.
+A. Multidimensional Data Cube
+Definition: A Multidimensional Data Cube stores large amounts of data using a multidimensional array. It uses an index for each dimension to retrieve data quickly.
+
+Example: A supermarket stores sales information in a cube with Product, Time and Location dimensions.
+Multidimensional Array
+
+Product × Time × Location
+
+Fast Data Retrieval
+
+
+Advantages:
+1. Fast data retrieval.
+2. Efficient multidimensional analysis.
+3. Supports quick aggregation.
+B. Relational Data Cube
+Definition: A Relational Data Cube stores data using relational database tables. Each table represents dimensions and measures of the data cube.
+
+Example: Sales information is stored in database tables containing product, location, time and sales amount.
+Relational Database
+
+Rows and columns
+
+Product Table
+
+Time Table
+
+Sales Table
+
+
+Advantages:
+1. Uses traditional relational databases.
+2. Can work with large relational datasets.
+3. Uses existing database management systems.
+Limitation: According to your PPT, retrieval is slower compared with a Multidimensional Data Cube. mod1111.pptx
+
+Difference between Multidimensional and Relational Data Cube
+Multidimensional Data Cube	Relational Data Cube
+Uses multidimensional arrays	Uses relational tables
+Uses dimension indexing	Uses table structures
+Faster data retrieval	Comparatively slower retrieval
+Suitable for multidimensional analysis	Suitable for relational database storage
+
+6. Advantages of Data Cube
+1. Multidimensional Analysis: Allows users to analyze data from different perspectives.
+2. Interactivity: Users can explore and manipulate data.
+3. Speed and Efficiency: Supports fast queries and aggregation.
+4. Data Aggregation: Helps summarize large amounts of data.
+5. Improved Decision-Making: Helps businesses make better decisions.
+6. Accessibility: Data can be accessed through different devices and platforms.
+7. Disadvantages of Data Cube
+1. Complexity: Setting up and maintaining OLAP systems can be difficult.
+2. Data Size Limitations: Very large datasets can require extensive storage and aggregation.
+3. Performance Issues: Complex queries on large datasets may become slow.
+4. Data Integrity: Poor data quality can affect analysis accuracy.
+5. Cost: Specialized software and hardware can be expensive.
+6. Inflexibility: Changes in business requirements may require modifications to the cube. mod1111.pptx
+8. Data Cube Operations
+There are five important operations performed on a Data Cube:
+1. Roll-Up
+
+Detailed data to summarized data
+
+2. Drill-Down
+
+Summarized data to detailed data
+
+3. Slice
+
+Select one value from one dimension
+
+4. Dice
+
+Select multiple values from multiple dimensions
+
+5. Pivot (Rotate)
+
+Change the orientation of data
+
+
+We can study these operations separately with diagrams and examples.

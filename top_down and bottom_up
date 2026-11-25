@@ -1,0 +1,71 @@
+Top-Down Approach in Data Warehouse
+Important exam topic
+1. Definition
+The Top-Down Approach is a method of designing a Data Warehouse in which we first create a large, centralized Data Warehouse for the entire organization. After that, smaller Data Marts are created for individual departments.
+
+In simple words:
+
+First create one big Data Warehouse, then divide the required data into smaller department-wise Data Marts.
+2. Diagram / Flowchart
+Different Data Sources
+
+Sales · HR · Finance · Customers
+
+ETL Process
+
+Extract · Transform · Load
+
+Central Data Warehouse (EDW)
+
+Stores integrated organization-wide data
+
+Sales Data Mart
+
+
+HR Data Mart
+
+
+Finance Data Mart
+
+
+
+
+3. Working of Top-Down Approach
+It works in the following steps:
+1. Collect Data: Data is collected from different sources such as sales, HR, finance and customer databases.
+2. ETL Process: Extract, Transform and Load operations are performed to clean and integrate the data.
+3. Create Central Data Warehouse: All the integrated data is stored in one central Enterprise Data Warehouse (EDW).
+4. Create Data Marts: Smaller Data Marts are created from the central warehouse for individual departments.
+5. Analysis: Each department uses its Data Mart for reporting and decision-making.
+4. Example – College Management System
+Imagine a college having different departments:
+- CSE Department
+- AIML Department
+- Management Department
+- Finance Department
+Step 1: First, the college creates one central Data Warehouse containing all student details, attendance, marks, fees and staff information.
+
+Step 2: Then it creates separate Data Marts:
+- Examination Data Mart – Student marks and results.
+- Attendance Data Mart – Student attendance.
+- Finance Data Mart – Fee details.
+Step 3: Each department accesses the data it needs.
+
+This is called the Top-Down Approach because the central warehouse is created first.
+5. Advantages
+1. Provides centralized data management.
+2. Maintains data consistency.
+3. Reduces data duplication.
+4. Provides a single source of truth.
+5. Supports organization-wide decision-making.
+6. Disadvantages
+1. High initial implementation cost.
+2. Takes more time to develop.
+3. Requires proper planning.
+4. Changes to the central warehouse may affect multiple departments.
+7. Top-Down vs Bottom-Up
+Top-Down	Bottom-Up
+Central Data Warehouse first	Data Marts first
+Data Marts created later	Data Marts integrated later
+Big to small	Small to big
+Centralized approach	Department-based initially
